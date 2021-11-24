@@ -19,7 +19,7 @@ For example, `Windows + C` will copy to clipboard, `Windows + V` will paste, `Wi
 | Indent right             | Windows + ]                   | Ctrl + ]                  |                                            |
 | Indent left              | Windows + [                   | Ctrl + [                  |                                            |
 | Move cursor one word left| Option + Left                 | Alt + Left                |                                            |
-|       "    one word right| Option + Right                | Alt + Right               |                                            |
+| Move cursor one word right| Option + Right                | Alt + Right               |                                            |
 
 
 ## Installation
