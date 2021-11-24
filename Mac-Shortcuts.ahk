@@ -1,6 +1,50 @@
 #SingleInstance, Force
 SendMode Input
 
+; CHEAT SHEET: AUTOHOTKEY HELP: https://autohotkey.com/docs/AutoHotkey.htm
+; Key symbols:   #=Win, !=Alt, ^=Cttrl, +-Shift
+; Suffixes:    UP=fire on release of key rather than presss
+; Metacharacters:  *=Wildcard (fire hotkey even if extra modifiers are being held down);
+
+; Apple Keyboard hotkey item
+Menu, Tray, Icon , MacShortcutsIcon.ico
+
+
+;---------------------------- Commands added by Josh Penman 2021-11-23 ----------------------------
+
+
+; Option+Left or Right key moves cursor one word left or  right
+!Left::
+Send, ^Left
+Return
+
+!Right::
+Send, ^Right
+Return
+
+; INDENT Lines using Command+ [ or ] (brackets)
+#[::
+Send, ^[
+Return
+
+#]::
+Send, ^]
+Return
+
+
+
+; ----------------------------Little script to reload whenever this file is saved in Notepad----------------------------
+#IfWinActive ,Mac-Shortcuts.ahk - Notepad
+#s::
+send,^s
+Reload
+	MsgBox, ,,Reloaded, 0.5
+#IfWinActive
+return
+
+
+
+; ---------------------------- Key mappings created by Mat Rogers Jan 2, 2021: ----------------------------
 ; Copy, paste, cut
 #c::
 Send, ^c
