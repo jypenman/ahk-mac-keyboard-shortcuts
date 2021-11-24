@@ -1,11 +1,11 @@
 # Mac Keyboard Shortcuts for Windows 10 (AutoHotKey)
 
-**Purpose**: Make your muscle memory work perfectly between OS X and Windows. 
-
 This fork has the following differences from rogersmj's version: 
 1. Original Windows shortcuts will not work because this fork will enable mac-like special characters, which requires remapping of the option and control keys. 
 2. Added an icon to distinguish it from other AHK instances
   2.1 (In future may enable choosing different command sets from tray icon menu)
+
+**Purpose**: Make your muscle memory work perfectly between OS X and Windows. 
 
 **Rationale**:
 I want to use the windows key as my main control key because I get less RSI and am more accurate when my thumb activates the main control key directly to the left of hte spacebar, as opposed to my pinky activating the control key two (or sometimes three) keys away. 
