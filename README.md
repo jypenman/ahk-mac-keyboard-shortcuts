@@ -1,8 +1,24 @@
 # Mac Keyboard Shortcuts for Windows 10 (AutoHotKey)
 
-This is an [AutoHotKey](https://www.autohotkey.com/) script designed to make keyboard shortcuts in Windows 10 more like MacOS. It is intended to make life easier for people who frequently jump between Windows and MacOS, and who prefer Mac-style keyboard shortcuts.
+**Purpose**: Make your muscle memory work perfectly between OS X and Windows. 
 
+This fork has the following differences from rogersmj's version: 
+- Original Windows shortcuts will not work because this fork will enable mac-like special characters, which requires remapping of the option and control keys. 
+
+**Rationale**:
+I want to use the windows key as my main control key because I get less RSI and am more accurate when my thumb activates the main control key directly to the left of hte spacebar, as opposed to my pinky activating the control key two (or sometimes three) keys away. 
+
+This is an [AutoHotKey](https://www.autohotkey.com/) script 
 For example, `Windows + C` will copy to clipboard, `Windows + V` will paste, `Windows + →` will jump to the end of a line, etc. The original Windows shortcuts (e.g. `Ctrl + C`) still work.
+
+## Added Shortcuts
+| Command                  | Shortcut (Mac style)          | Mapped to (Windows style) | Notes                                      |
+|--------------------------|-------------------------------|---------------------------|--------------------------------------------|
+| Indent right             | Windows + ]                   | Ctrl + ]                  |                                            |
+| Indent left              | Windows + [                   | Ctrl + [                  |                                            |
+| Move cursor one word left| Option + Left                 | Alt + Left                |                                            |
+|       "    one word right| Option + Right                | Alt + Right               |                                            |
+
 
 ## Installation
 1. Make sure you have [AutoHotKey](https://www.autohotkey.com/).
